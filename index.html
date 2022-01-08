@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body, html{
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 300;
+    color: #929292;
+    text-align: center;
+}
+.subtitle{
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #929292;
+    text-align: center;
+}
+.header__profile{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.header__img{
+    width: 120px;
+}
+
+@media (max-width:576px){
+    .title{
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .header__profile{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.main__text{
+    height: 100%;
+    margin-top: 20px;
+    line-height: 39px;
+    font-size: 30px;
+    background: rgb(238, 238, 238);
+    color: black;
+}
+@media (max-width:992px){
+    .main__text{
+        font-size: 15px;
+    }
+}
+@media (max-width:576px){
+    .main__text{
+        padding: 10px 0 10px 20px;
+    }
+}
+.footer{
+    padding: 50px 0;
+    background-color: rgb(18, 50, 62);
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__item{
+    text-decoration: none;
+    margin-left: 13px;
+}
+.fab {
+    color: #fff;
+}
+.footer__logo{
+    display: flex;
+    flex-direction: column;
+}
+.footer__link{
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+}
+.footer__phone{
+    font-size: 24px;
+    color: #ffff;
+}
+.footer__mobile{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:992px){
+    .footer{
+        padding: 25px 0;
+    }
+    .footer__img{
+        width: 200px;
+    }
+    .footer__link{
+        font-size: 15px;
+    }
+    .footer__phone{
+        font-size: 18px;
+    }
+    .footer__mobile{
+        font-size: 13px;
+    }
+}
+@media (max-width:576px){
+    .footer{
+        padding: 10px 0;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo{
+        margin-top: 15px;
+    }
+    .footer__phone{
+        display: none;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <div class="container">
+                <div class="title">СИЛА СМЫСЛА</div>
+                <div class="subtitle">или почему ultimatum заходит?</div>
+                <div class="header__profile">
+                    <img src="https://ultimatumboxing.ru/images/si-rounded.png" alt="Sergei Ivanytin" class="header__img">
+                    <div class="header__text">Сергей Иванютин- основатель Ultimatum Boxing</div>
+                </div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="container">
+                <div class="main__text">
+                    Привет! Это опять я  <br>
+                    Если мои письма тебя напрягают, просто отпишись по ссылке внизу. <br> 
+                    В предыдущем письме я обмолвился, что мы делаем всё со смыслом. <br> 
+                    В общих чертах это значит, что любое изделие Ultimatum сделано с профессиональным пониманием того, как следует его делать. За 10 лет в бизнесе мы вдоль и поперёк изучили предмет и уже давно не гадаем. Мы твердо знаем, как делать экипировку правильно. <br> 
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__social">
+                        <a href="https://wa.me/79199608368" class="footer__item">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/UltimatumBoxing" class="footer__item">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ultimatumboxing/" class="footer__item">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="footer__logo">
+                        <a href="https://ultimatumboxing.ru/" class="footer__img">
+                            <img src="https://ultimatumboxing.ru/images/logo-footer.png" alt="ultimatum boxing" class="footer__img">
+                        </a>
+                        <a href="#" class="footer__link">отписаться</a>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__info">
+                            <div class="footer__phone">Телефон для связи:</div>
+                            <a href="tel:+78001002246" class="footer__mobile">8-800-100-22-46</a>
+                            <a href="tel:+74954892246" class="footer__mobile">+7 (495) 489-22-46</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
